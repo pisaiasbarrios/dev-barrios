@@ -11,6 +11,7 @@ namespace PCyP.Domain.BLL
     {
         private static List<Instructor> _InstructorList = new List<Instructor>();
 
+
         public static void Add(Instructor instructor)
         {
             _InstructorList.Add(instructor);
